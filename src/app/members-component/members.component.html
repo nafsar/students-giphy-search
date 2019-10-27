@@ -1,0 +1,24 @@
+<p>Students</p>
+<div>
+    <div class="devmth"></div>
+    <table class="lstdt">
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Email Address</th>
+            </tr>
+        </thead>
+        <tr *ngFor="let value of values">
+            <td>
+                <input type="text" value={{value.First_Name}}>
+            </td>
+            <td>
+                <input type="text" value={{value.Last_Name}}/>
+            </td>
+            <td>
+                <input type="text" value={{value.Email_Address}}/>
+            </td>
+        </tr>
+    </table>
+</div>

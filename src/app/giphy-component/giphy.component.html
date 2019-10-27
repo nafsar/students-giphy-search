@@ -1,0 +1,12 @@
+
+<div class="container">
+    <form>
+        <input class="input-search" type="text"  id="giphyRequest" placeholder="Giphy search name?">
+            <span class="submit"  (click) = "lookupGiphy()">Submit</span>
+    </form>    
+        <div *ngIf = "searchOutcome" >
+            <div *ngFor = "let search of searchOutcome.data | slice:0:1" class="search-list top-space">
+            <img [src] = "search.images.original.url">
+            </div>
+        </div> 
+</div>

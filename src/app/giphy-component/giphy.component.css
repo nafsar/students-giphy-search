@@ -1,0 +1,29 @@
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .result-list{
+      margin-bottom: 30px;
+  }
+
+  img{
+      width: 200px;
+      height: 200px;
+  }
+
+  .container {
+    width:260px;margin-left:auto; margin-right:auto;
+  }
+
+  .input-search {
+    width:150px;height:20px;border-radius:4px;
+  }
+  .submit {
+    width:65px;padding:8px;height:25px;border-radius:4px;margin-left:5px;background-color: black;color:white;font-weight: 800;
+  }
+  .top-space {
+    margin-top:30px;
+  }
